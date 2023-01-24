@@ -9,6 +9,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+li{
+  list-style: none;
+}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -35,11 +38,35 @@ body {
 /* ------------------------------ Header ------------------------------ */
 
 header{
+  
+  display: flex;
+  justify-content: space-around;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+#header-ul{
+  width: 20%;
+ 
+}
+#header-ul>ul{
   display: flex;
   justify-content: space-between;
-
+  
 }
-
+#header-ul>ul
+header>button{
+  background-color: blue;
+  height: 50px;
+  color: white;
+  width: 144px;
+  color: grey;
+}
+header button{
+  background-color: blue;
+  color: white;
+  width: 144px;
+  height: 53px;
+}
 /* ------------------------------ Partners ------------------------------ */
 
 /* Your CSS code goes here */
