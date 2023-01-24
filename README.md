@@ -116,7 +116,7 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 ###### Martes 24, Enero 2023
 
-- [ ] HTML Home
+- [x] HTML Home
 - [ ] HTML Projects
 - [ ] HTML About Us
 - [ ] HTML Contact Us
