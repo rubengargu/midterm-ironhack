@@ -118,8 +118,8 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 - [x] HTML Home
 - [x] HTML Projects
-- [ ] HTML About Us
-- [ ] HTML Contact Us
+- [x] HTML About Us
+- [x] HTML Contact Us
 
 - [ ] CSS Home
 - [ ] CSS Projects
