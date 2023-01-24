@@ -34,7 +34,11 @@ body {
 
 /* ------------------------------ Header ------------------------------ */
 
-/* Your CSS code goes here */
+header{
+  display: flex;
+  justify-content: space-between;
+
+}
 
 /* ------------------------------ Partners ------------------------------ */
 
