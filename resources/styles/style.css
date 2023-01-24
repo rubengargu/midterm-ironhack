@@ -9,6 +9,7 @@
   margin-top: 1%;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 body {
@@ -163,13 +164,7 @@ header{
 /* ------------------------------ Recent projects ------------------------------ */
 
 .projectsBox{
-   /*  display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 45px;
-    grid-row-gap: 0px;
-    -ms-grid-row-align: center; */
-    display: grid;
+      display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 40px;
@@ -188,9 +183,8 @@ header{
     max-width: 25vw;
     height: 25vw;
     width: 25vw;
-   /*  width: 100%; */
     height: 240px;
-    width: 250px;
+    width: 300px;
   }
 
   #projects .projectsBox{
@@ -199,34 +193,99 @@ header{
     /* max-width: 50vw; */
   }
 
-.special{
-  background-image: url("./resources/images/projects-section/3.jpg");
-  background-size: cover;
-}
-
 /* ------------------------------ Client reviews ------------------------------ */
-.memoji-1,
-.memoji-2,
-.memoji-3,
-.memoji-4 {
-  width: 96px;
-  height: 96px;
-}
-.clientReview {
+#reviews {
+  background-color: #292e47;
+  background-image: url("../images/testimonial-section/orbit.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  margin-top: 150px;
+  max-width: 1215px;
+  text-align: center;
   display: flex;
-  justify-content: center;
-  width: 50%;
-}
-#top-contact-btn {
-  display: none;
-}
-.txt-title h1 {
-  font-size: 3rem;
-  color: #292e47;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
 }
 
-.project{
-  width: 25%;
+#reviews h2 {
+  color: white;
+  font-size: 2rem;
+}
+
+#reviews p {
+  width: 55%;
+  color: gold;
+  font-size: 1.5rem;
+}
+
+.clientReview {
+  width: 17%;
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+.clientReview img {
+  width: 50px;
+  height:50px;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+
+.clientReview h4 {
+  color: #7cc2ff;
+  font-weight: 400;
+}
+
+.clientReview h5 {
+  color: white;
+  font-weight: 400;
+}
+
+.clientReview div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.memoji-1 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  right: auto;
+  bottom: auto;
+}
+.memoji-2 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  right: 10%;
+  top: 10%;
+  left: auto;
+  bottom: auto;
+}
+.memoji-3 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+  right: auto;
+  top: auto;
+}
+.memoji-4 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+  left: auto;
+  top: auto;
 }
 
 
@@ -235,14 +294,60 @@ header{
 .services{
   display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 45px;
     grid-row-gap: 0px;
     -ms-grid-row-align: center;
   }
 /* ------------------------------ Questions form ------------------------------ */
 
-/* Your CSS code goes here */
+#questions {
+  background-color: #ffc600;
+  height: 400px;
+  margin-top: 150px;
+  max-width: 1215px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#questions p {
+  color: #6c718b;
+  font-weight: 400;
+  margin: 20px 0 50px 0;
+}
+
+.title-subscribe h2 {
+  font-size: 2.5rem;
+}
+
+#email-input {
+  border: 0;
+  height: 70px;
+  font-weight: 400;
+  font-size: 1.1rem;
+  width: 500px;
+  background: url("../images/newsletter/icon/mail.svg") no-repeat scroll 7px 7px;
+  background-position: 3% 50%;
+  background-color: white;
+  padding-left: 50px;
+}
+
+.email-subscribe {
+  width: 100%;
+}
+
+#email-sub-btn {
+  background-color: #072ac8;
+  color: white;
+  font-weight: 500;
+  font-size: 1.05rem;
+  padding: 25px 50px 25px 50px;
+  text-decoration: none;
+  margin-left: 12px;
+}
 
 /* ------------------------------ Footer ------------------------------ */
 
