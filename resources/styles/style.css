@@ -9,6 +9,7 @@
   margin-top: 1%;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 body {
@@ -163,13 +164,7 @@ header{
 /* ------------------------------ Recent projects ------------------------------ */
 
 .projectsBox{
-   /*  display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 45px;
-    grid-row-gap: 0px;
-    -ms-grid-row-align: center; */
-    display: grid;
+      display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 40px;
@@ -205,28 +200,98 @@ header{
 }
 
 /* ------------------------------ Client reviews ------------------------------ */
-.memoji-1,
-.memoji-2,
-.memoji-3,
-.memoji-4 {
-  width: 96px;
-  height: 96px;
-}
-.clientReview {
+#reviews {
+  background-color: #292e47;
+  background-image: url("../images/testimonial-section/orbit.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  margin-top: 150px;
+  max-width: 1215px;
+  text-align: center;
   display: flex;
-  justify-content: center;
-  width: 50%;
-}
-#top-contact-btn {
-  display: none;
-}
-.txt-title h1 {
-  font-size: 3rem;
-  color: #292e47;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
 }
 
-.project{
-  width: 25%;
+#reviews h2 {
+  color: white;
+  font-size: 2rem;
+}
+
+#reviews p {
+  width: 55%;
+  color: gold;
+  font-size: 1.5rem;
+}
+
+.clientReview {
+  width: 17%;
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+.clientReview img {
+  width: 50px;
+  height:50px;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+
+.clientReview h4 {
+  color: #7cc2ff;
+  font-weight: 400;
+}
+
+.clientReview h5 {
+  color: white;
+  font-weight: 400;
+}
+
+.clientReview div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.memoji-1 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  right: auto;
+  bottom: auto;
+}
+.memoji-2 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  right: 10%;
+  top: 10%;
+  left: auto;
+  bottom: auto;
+}
+.memoji-3 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+  right: auto;
+  top: auto;
+}
+.memoji-4 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+  left: auto;
+  top: auto;
 }
 
 
