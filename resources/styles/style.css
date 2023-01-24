@@ -60,12 +60,20 @@ header>button{
   color: white;
   width: 144px;
   color: grey;
+  align-items: baseline;
 }
 header button{
   background-color: blue;
   color: white;
   width: 144px;
   height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: #072ac8;
+}
+header button>a{
+  color: white;
 }
 /* ------------------------------ Partners ------------------------------ */
 
@@ -89,7 +97,32 @@ header button{
 
 /* ------------------------------ Footer ------------------------------ */
 
-/* Your CSS code goes here */
+footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top:70px;
+  margin-bottom: 70px;
+}
+.footer-left img{
+  width: 95px;
+  margin-bottom: 15px;
+}
+
+.footer-right>ul{
+  display: flex;
+  color: blue;
+  width: 55%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.footer-right>ul>li{
+  margin-top: 20px;
+  margin-right: 5px;
+  margin-left: 0;
+  width: 100px;
+}
+
 
 /* -------------------------------------------------------------------------- */
 /* ------------------------------ PROJECT html ------------------------------ */
@@ -110,8 +143,36 @@ header button{
 /* ----------------------------------------------------------------------------- */
 /* ------------------------------ About html ------------------------------ */
 /* ----------------------------------------------------------------------------- */
-
-/* Your CSS code goes here */
+h2{
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+.music ul{
+  display: flex;
+  flex-direction: column;
+}
+.li-about{
+  text-align: center;
+  margin-top: 25px;
+}
+h6{
+  display: inline;
+  font-size: 16px;
+}
+li p{
+  display: inline-block;
+}
+.center-iframe{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+iframe{
+  display: flex;
+  width: 30%;
+  align-items: center;
+  height: 250px;
+}
 
 /* --------------------------------------------------------------------------- */
 /* ------------------------------ MEDIA QUERIES ------------------------------ */
