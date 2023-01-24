@@ -125,6 +125,28 @@ header{
 
 }
 
+#logos{
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 90vw; */
+  animation: none;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  
+}
+
+
+.logosBox{
+  display:flex;
+  flex-direction: row;
+}
+
+
+
+.logoSize{
+  width: 4rem
+}
 
 
 /* ------------------------------ Partners ------------------------------ */
@@ -139,7 +161,24 @@ header{
 }
 /* ------------------------------ Recent projects ------------------------------ */
 
-/* Your CSS code goes here */
+.projectsBox{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+  }
+
+  .projectsImg{
+   object-fit: contain;
+   max-height: 25vw;
+  }
+
+  #projects .projectsBox{
+    display: flex;
+    flex-direction: row;
+    max-width: 50vw;
+  }
 
 /* ------------------------------ Client reviews ------------------------------ */
 
