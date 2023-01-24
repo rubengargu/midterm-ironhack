@@ -108,26 +108,51 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 ###### Lunes 23, Enero 2023
 
-- [ ] Tarea no completada
-- [x] Tarea Completada
-- [ ] Ej - Crear section "projects" en html
-- [x] Ej - Crear section "projects" en html
+- [x] organizar las tareas
+- [x] crear repositorio
+- [x] vincular Vercel
 
 #### Day Two
 
 ###### Martes 24, Enero 2023
 
+- [x] HTML Home
+- [ ] HTML Projects
+- [ ] HTML About Us
+- [ ] HTML Contact Us
+
+- [ ] CSS Home
+- [ ] CSS Projects
+- [ ] CSS About Us
+- [ ] CSS Contact Us
+
+
 #### Day Three
 
 ###### Miercoles 25, Enero 2023
+
+- [ ] Puesta al dia
+- [ ] Dividir y organizar tareas de JS 
+- [ ] 
+- [ ] 
 
 #### Day Four
 
 ###### Jueves 26, Enero 2023
 
+- [ ] 
+- [ ]
+- [ ] 
+- [ ] Preparar presentación
+
 #### Day Five
 
 ###### Viernes 27, Enero 2023
+
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
