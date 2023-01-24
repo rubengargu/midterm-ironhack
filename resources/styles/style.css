@@ -35,6 +35,7 @@ body {
 
 /* ------------------------------ Header ------------------------------ */
 
+
 header{
   display: flex;
   justify-content: space-between;
@@ -162,32 +163,83 @@ header{
 /* ------------------------------ Recent projects ------------------------------ */
 
 .projectsBox{
+   /*  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 45px;
+    grid-row-gap: 0px;
+    -ms-grid-row-align: center; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 40px;
     grid-row-gap: 40px;
+    margin: 0 40px 0 40px;
+    width: 100%;
+  }
+
+  .projectTitle{
+    margin-left: 30px;
   }
 
   .projectsImg{
-   object-fit: contain;
-   max-height: 25vw;
+    object-fit: cover;
+    max-height: 25vw;
+    max-width: 25vw;
+    height: 25vw;
+    width: 25vw;
+   /*  width: 100%; */
+    height: 240px;
+    width: 250px;
   }
 
   #projects .projectsBox{
     display: flex;
     flex-direction: row;
-    max-width: 50vw;
+    /* max-width: 50vw; */
   }
 
-/* ------------------------------ Client reviews ------------------------------ */
+.special{
+  background-image: url("./resources/images/projects-section/3.jpg");
+  background-size: cover;
+}
 
-/* Your CSS code goes here */
+/* ------------------------------ Client reviews ------------------------------ */
+.memoji-1,
+.memoji-2,
+.memoji-3,
+.memoji-4 {
+  width: 96px;
+  height: 96px;
+}
+.clientReview {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+#top-contact-btn {
+  display: none;
+}
+.txt-title h1 {
+  font-size: 3rem;
+  color: #292e47;
+}
+
+.project{
+  width: 25%;
+}
+
 
 /* ------------------------------ Services ------------------------------ */
 
-/* Your CSS code goes here */
-
+.services{
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 45px;
+    grid-row-gap: 0px;
+    -ms-grid-row-align: center;
+  }
 /* ------------------------------ Questions form ------------------------------ */
 
 /* Your CSS code goes here */
