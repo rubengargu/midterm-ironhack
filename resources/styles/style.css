@@ -321,6 +321,7 @@ header{
 
 .titleQuestion h2 {
   font-size: 2.5rem;
+  width: 100%;
 }
 
 #email-input {
