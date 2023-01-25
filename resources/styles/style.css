@@ -371,7 +371,16 @@ header>button{
 .title-subscribe h2 {
   font-size: 2.5rem;
 }
+.letter{
+  background: url("../images/newsletter/icon/mail.svg") no-repeat scroll 7px 7px;
 
+}
+.form-yellow{
+  margin: 0;
+}
+.button-yellow{
+  margin:0;
+}
 #email-input {
   border: 0;
   height: 70px;
@@ -381,7 +390,7 @@ header>button{
   background: url("../images/newsletter/icon/mail.svg") no-repeat scroll 7px 7px;
   background-position: 3% 50%;
   background-color: white;
-  padding-left: 50px;
+  
 }
 
 .email-subscribe {
@@ -390,7 +399,7 @@ header>button{
 
 #email-sub-btn {
   background-color: #072ac8;
-  color: white;
+  color: #bec7f1;
   font-weight: 500;
   font-size: 1.05rem;
   padding: 25px 50px 25px 50px;
@@ -401,11 +410,15 @@ header>button{
   width: 80%;
   display: flex;
   justify-content: center;
+  flex-direction: raw;
 }
-.question-form button{
-  background-color: #072ac8;
-  color: #bec7f1;
+.question-form form{
+  display: flex;
 }
+.fa-thin {
+  width: 200px;
+}
+
 /* ------------------------------ Footer ------------------------------ */
 
 footer{
