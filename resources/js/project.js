@@ -44,7 +44,7 @@ getPost(postUrl);
     .then((response) => response.json())
     .then((res) => {
         for (let i = 0; i < 3; i++) {
-            document.querySelector('.projectsBox').innerHTML += `<div class="project">
+            document.querySelector('.projectsBox').innerHTML += `<div class="project"> <div class="otherProjects">Other Projects</div>
             <img src="./resources/images/projects-section/${res[i].id}.jpg" alt="" class ="projectsImg">
             <h3>${res[i].title}</h3>
             <p>${res[i].body}</p>
