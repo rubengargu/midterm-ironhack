@@ -118,13 +118,12 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 - [x] HTML Home
 - [x] HTML Projects
-- [ ] HTML About Us
-- [ ] HTML Contact Us
+- [x] HTML About Us
+- [x] HTML Contact Us
 
-- [ ] CSS Home
-- [ ] CSS Projects
-- [ ] CSS About Us
-- [ ] CSS Contact Us
+- [x] CSS Home
+- [x] CSS About Us
+- [x] CSS Contact Us
 
 
 #### Day Three
@@ -132,8 +131,9 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 ###### Miercoles 25, Enero 2023
 
 - [ ] Puesta al dia
+- [ ] CSS Projects
 - [ ] Dividir y organizar tareas de JS 
-- [ ] 
+- [ ] @media
 - [ ] 
 
 #### Day Four
