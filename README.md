@@ -1,19 +1,19 @@
 <!--
 GITHUB COMMANDS
 
-git add . &&
+git status && git add . &&
 git commit -m "Texto descriptivo de los cambios recientes" &&
 git push origin eiden
 
-git add . &&
+git status && git add . &&
 git commit -m "Texto descriptivo de los cambios recientes" &&
 git push origin ruben
 
-git add . &&
+git status && git add . &&
 git commit -m "Texto descriptivo de los cambios recientes" &&
 git push origin main
 
-git pull origin main
+git status && git pull origin main
 
 
 Un archivo README.md es un archivo de markdown que contiene información sobre un proyecto. Típicamente se encuentra en el directorio raíz de un proyecto y se utiliza para proporcionar documentación e instrucciones para otros que puedan querer usar o contribuir al proyecto.
