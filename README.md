@@ -161,9 +161,10 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 ###### Jueves 26, Enero 2023
 
-- [ ] terminar apartado project
-- [ ] responsive
-- [ ] pantalla de carga
+- [ ] Terminar apartado project
+- [ ] Terminar de enlazar
+- [ ] Responsive
+- [ ] Pantalla de carga
 - [ ] Preparar presentación
 
 #### Day Five
