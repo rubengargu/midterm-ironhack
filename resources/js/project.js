@@ -2,23 +2,22 @@
 /* ADVANCED: consigue que la info del post funcione dinámicamente y enseñe un post u otro según la URL */
 
 //Jarko explanation about how to select the data we want on the page
-/* function getValueX() {
-    const currentUrl = window.location.href;
-    const urlElements = currentUrl.split("/");
-    
-    console.log(urlElements[urlElements.length - 1])
-    return urlElements[urlElements.length - 1];
-}
-getValueX()
-//console.log(getValueX('http://127.0.0.1:5500/project1.html')); // Output: "project1.html"
- */
 
-//Variable to get the url (DOES NOT WORK)
+function getValue() {
+    const currentUrl = window.location.href;
+    const urlElements = currentUrl.charAt(29);
+    return urlElements;
+}
+
+console.log(getValue()); // Output: "1"
+
 /* let postUrl = new URLSearchParams(location.search) /* || 1 */
+
+let postUrl = getValue() || 1;
 
 
 //Function to get the post for the Project page
-/* const getPost = (post) => {
+const getPost = (post) => {
     fetch(`https://jsonplaceholder.typicode.com/posts/${post}`)
     .then((response) => response.json())
     .then((res) => {
@@ -36,11 +35,11 @@ getValueX()
     .catch((error) => console.log(error))
 }
 
-getPost(postUrl); */
+getPost(postUrl); 
 
  //same function to get 3 post than index.js
 
-/*  const get3posts = () => {
+ const get3posts = () => {
     fetch('https://jsonplaceholder.typicode.com/posts')
     .then((response) => response.json())
     .then((res) => {
@@ -56,4 +55,4 @@ getPost(postUrl); */
     .catch((error) => console.log(error))
 }
 
-window.addEventListener("load", get3posts); */
+window.addEventListener("load", get3posts);
