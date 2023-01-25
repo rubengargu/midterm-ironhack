@@ -51,7 +51,7 @@ window.onhashchange = function() {
             <img src="./resources/images/projects-section/${res[i].id}.jpg" alt="" class ="projectsImg">
             <h3>${res[i].title}</h3>
             <p>${res[i].body}</p>
-            <a href="project.html?p=${res[i].id}">Learn More</a>
+            <a href="project${res[i].id}.html">Learn More</a>
             </div>`;
         }
     })
