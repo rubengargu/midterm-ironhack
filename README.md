@@ -133,7 +133,7 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 - [ ] Puesta al dia
 - [ ] CSS Projects
 - [ ] Dividir y organizar tareas de JS 
-- [ ] 
+- [ ] @media
 - [ ] 
 
 #### Day Four
