@@ -147,19 +147,22 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 ###### Miercoles 25, Enero 2023
 
-- [ ] Puesta al dia
-- [ ] CSS Projects
-- [ ] Dividir y organizar tareas de JS 
-- [ ] @media
-- [ ] 
+- [x] Puesta al dia
+- [x] CSS Projects
+- [x] index.js
+- [x] project.js
+- [x] contact-us.js
+- [x] CSS Home
+- [x] CSS About Us
+- [x] CSS Contact Us
+
 
 #### Day Four
 
 ###### Jueves 26, Enero 2023
 
-- [ ] 
-- [ ]
-- [ ] 
+- [ ] terminar apartado project
+- [ ] responsive
 - [ ] Preparar presentación
 
 #### Day Five
