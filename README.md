@@ -163,6 +163,7 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 - [ ] terminar apartado project
 - [ ] responsive
+- [ ] pantalla de carga
 - [ ] Preparar presentación
 
 #### Day Five
