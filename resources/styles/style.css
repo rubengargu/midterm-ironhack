@@ -181,8 +181,10 @@ header button>a{
   
 }
 .logosBox{
-  display:flex;
+  justify-content: space-around;
   flex-direction: row;
+  display: flex;
+  margin: 76px 100px; 
 }
 .logoSize{
   width: 4rem
@@ -368,8 +370,9 @@ header>button{
   margin: 20px 0 50px 0;
 }
 
-.title-subscribe h2 {
+.titleQuestion h2 {
   font-size: 2.5rem;
+  width: 100%;
 }
 .letter{
   background: url("../images/newsletter/icon/mail.svg") no-repeat scroll 7px 7px;
@@ -393,7 +396,7 @@ header>button{
   
 }
 
-.email-subscribe {
+.emailQuestion {
   width: 100%;
 }
 
