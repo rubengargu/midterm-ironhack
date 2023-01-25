@@ -154,8 +154,10 @@ header{
 
 
 .logosBox{
-  display:flex;
+  justify-content: space-around;
   flex-direction: row;
+  display: flex;
+  margin: 76px 100px; 
 }
 
 
