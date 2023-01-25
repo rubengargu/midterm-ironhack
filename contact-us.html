@@ -4,54 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resources/styles/style.css">
     <title>Contact us</title>
 </head>
 <header>
-    <nav>
-        <div>
-        <img src="resources/images/logos/circle.svg" alt="logo">
-        </div>
-        <div>
-        <ul>
-            <li>Home</li>
-            <li>Projects</li>
-            <li>Services</li>
-            <li>About</li>
-        </ul>
-        </div>
-    </nav>
-    <button>Contact Us</button>
+      
+            
+    <img src="resources/images/logos/circle.svg" alt="logo">
+    
+    <div id="header-ul">
+    <ul>
+        <li>Home</li>
+        <li>Projects</li>
+        <li>Services</li>
+        <li>About</li>
+    </ul>
+    </div>
+
+<button>Contact Us</button>
 </header>
 <body>
+    <form action="get">
     <h1>Contact us</h1>
     <div class="form">
-        <form action="get">
-            <h4>Full Name *</h4>
-            <input name="name"type="text" placeholder="Enter your full name" id="name"></input>
-            <h4>Email</h4>
-            <input name="mail" type="email" placeholder="Enter your email" id="Email"></input>
-            <h4>Phone</h4>
-            <input name="phone" type="number" placeholder="Enter your phone" id="Phone"></input>
-            <h4>Message *</h4>
-            <textarea name="message" type="text" placeholder="write your message here..." row="80" cols="60"></textarea> 
-            <button type="submit">Submit</button>  
+        
+            <ul>
+           <li> <label for ="form-name">Full Name *</label>
+            <input name="name" required type="text" id="form-name" placeholder="Enter your full name" id="name"></input></li>
+            <div class="center-form"><li> 
+            <label for="form-mail">Email</label>
+            <input name="mail" type="email" id="form-mail" placeholder="Enter your email" id="Email"></input></li>
+            <li><label for="form-phone">Phone</label>
+            <input name="phone" type="number" id="form-phone" placeholder="Enter your phone" id="Phone"></input></li>
+            </div>
+            <label for="form-message">Message *</label>
+            <li><textarea name="message"id="form-message" rows=15; required type="text" placeholder="Write your message here..." row="80" cols="60"></textarea> 
+            <button type="submit" id="submit-form">Submit</button>
+         </ul> 
         </form>
+       
         <footer>
-            <footer>
-                <div class="footer-left">
-                <img src="resources/images/logos/circle.svg" alt="logo">
-                <address>2972 Westheimer Rd. Santa Ana, Illinois 85486</address>
-                </div>
-                <ul>
-                    <li>Team</li>
-                    <li>Press</li>
-                    <li>Services</li>
-                    <li>Projects</li>
-                    <li>About Us</li>
-                    <li>Privacy Policy</li>
-                </ul>
-        </footer>
-
-    
+            <div class="footer-left">
+            <img src="resources/images/logos/circle.svg" alt="logo">
+            <address>2972 Westheimer Rd. Santa Ana, Illinois 85486</address>
+            </div>
+            <div class="footer-right">
+            <ul>
+                <li>Team</li>
+                <li>Services</li>
+                <li>About us</li>
+                <li>Press</li>
+                <li>Projects</li>
+                <li>Privacy Policy</li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
