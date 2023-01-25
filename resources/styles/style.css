@@ -51,10 +51,42 @@ header{
   width: 20%;
  
 }
+#header-ul>ul
+header>button{
+  background-color: blue;
+  height: 50vw;
+  color: white;
+  width: 144px;
+  color: grey;
+  align-items: baseline;
+}
+#header-ul>ul>li{
+  width: 799vw;
+}
+header button{
+  background-color: blue;
+  color: white;
+  width: 144px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: #072ac8;
+  
+}
+header button>a{
+  color: white;
+  text-decoration: none;
+}
 #header-ul>ul{
   display: flex;
   justify-content: space-between;
   
+}
+#header-ul>ul>li>a{
+  color: #000;
+  text-decoration: none;
+  width: 70vw;
 }
 
 #presentation{
@@ -127,7 +159,6 @@ header{
 
 .heroImg{
   width: 100%;
-
 }
 
 .card2{
@@ -138,9 +169,7 @@ header{
   bottom: -20%;
   max-width: 55%;
   /* z-index: 999; */
-
 }
-
 #logos{
   display: flex;
   flex-wrap: wrap;
@@ -151,41 +180,26 @@ header{
   margin: auto;
   
 }
-
-
 .logosBox{
   display:flex;
   flex-direction: row;
 }
-
-
-
 .logoSize{
   width: 4rem
 }
-
 #header-ul>ul
 header>button{
   background-color: blue;
-  height: 50px;
+  height: 50vw;
   color: white;
   width: 144px;
   color: grey;
   align-items: baseline;
 }
-header button{
-  background-color: blue;
-  color: white;
-  width: 144px;
-  height: 53px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: #072ac8;
+#header-ul>ul>li{
+  width: 799vw;
 }
-header button>a{
-  color: white;
-}
+
 /* ------------------------------ Partners ------------------------------ */
 
 /* Your CSS code goes here */
@@ -383,7 +397,15 @@ header button>a{
   text-decoration: none;
   margin-left: 12px;
 }
-
+.question-form{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.question-form button{
+  background-color: #072ac8;
+  color: #bec7f1;
+}
 /* ------------------------------ Footer ------------------------------ */
 
 footer{
@@ -419,7 +441,29 @@ footer{
 
 /* ------------------------------ Project main ------------------------------ */
 
-/* Your CSS code goes here */
+.top-img{
+  display: flex;
+  
+}
+.img-flex{
+  display: flex;
+  justify-content: center;
+}
+.projects-section1{
+  width: 100%;
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  margin-bottom: 30px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+main p{
+  font-size: 20px;
+  color: #a9acb7;
+}
 
 /* ----------------------------------------------------------------------------- */
 /* ------------------------------ CONTACT-US html ------------------------------ */
