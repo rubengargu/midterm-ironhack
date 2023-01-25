@@ -5,9 +5,11 @@
 }
 
 * {
-  margin: 0;
+  margin: 2%;
+  margin-top: 1%;
   padding: 0;
   box-sizing: border-box;
+  
 }
 li{
   list-style: none;
@@ -37,6 +39,7 @@ body {
 
 /* ------------------------------ Header ------------------------------ */
 
+
 header{
   
   display: flex;
@@ -53,6 +56,114 @@ header{
   justify-content: space-between;
   
 }
+
+#presentation{
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4%;
+  padding: 5%
+  
+}
+
+.textBtnBox{
+  flex-direction: column-reverse;
+}
+
+#presentation> div {
+  width: 46%;
+}
+
+.presentationText h1{
+  font-size: 3.9rem;
+  color: #292e47;
+}
+
+.presentationText p{
+  font-size: 1.3rem;
+  color: #6b708d;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 30px 0 50px 0;
+}
+
+
+.btnsPresentation{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;  
+}
+
+.btnWhite{
+  margin-bottom: 30px;
+  background-color: #072ac8;
+  color:antiquewhite;
+  padding: 2%;
+
+}
+
+.btnBlue{
+  margin-bottom: 30px;
+  color: #292e47;
+  padding: 2%;
+
+}
+
+.imgBlock{
+  position: relative;
+}
+
+.creditCard{
+  position: absolute;
+  left: -20%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+  max-width: 55%;
+}
+
+.heroImg{
+  width: 100%;
+
+}
+
+.card2{
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: -25%;
+  bottom: -20%;
+  max-width: 55%;
+  /* z-index: 999; */
+
+}
+
+#logos{
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 90vw; */
+  animation: none;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  
+}
+
+
+.logosBox{
+  display:flex;
+  flex-direction: row;
+}
+
+
+
+.logoSize{
+  width: 4rem
+}
+
 #header-ul>ul
 header>button{
   background-color: blue;
@@ -78,22 +189,200 @@ header button>a{
 /* ------------------------------ Partners ------------------------------ */
 
 /* Your CSS code goes here */
+.title{
+  margin: 100px 0 75px 0;
+}
 
+.title h2{
+  font-size: 2rem;
+}
 /* ------------------------------ Recent projects ------------------------------ */
 
-/* Your CSS code goes here */
+.projectsBox{
+      display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    margin: 0 40px 0 40px;
+    width: 100%;
+  }
+
+  .projectTitle{
+    margin-left: 30px;
+  }
+
+  .projectsImg{
+    object-fit: cover;
+    max-height: 25vw;
+    max-width: 25vw;
+    height: 25vw;
+    width: 25vw;
+    height: 240px;
+    width: 300px;
+  }
+
+  #projects .projectsBox{
+    display: flex;
+    flex-direction: row;
+    /* max-width: 50vw; */
+  }
 
 /* ------------------------------ Client reviews ------------------------------ */
+#reviews {
+  background-color: #292e47;
+  background-image: url("../images/testimonial-section/orbit.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  margin-top: 150px;
+  max-width: 1215px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
 
-/* Your CSS code goes here */
+#reviews h2 {
+  color: white;
+  font-size: 2rem;
+}
+
+#reviews p {
+  width: 55%;
+  color: gold;
+  font-size: 1.5rem;
+}
+
+.clientReview {
+  width: 17%;
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+.clientReview img {
+  width: 50px;
+  height:50px;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+
+.clientReview h4 {
+  color: #7cc2ff;
+  font-weight: 400;
+}
+
+.clientReview h5 {
+  color: white;
+  font-weight: 400;
+}
+
+.clientReview div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.memoji-1 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  right: auto;
+  bottom: auto;
+}
+.memoji-2 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  right: 10%;
+  top: 10%;
+  left: auto;
+  bottom: auto;
+}
+.memoji-3 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+  right: auto;
+  top: auto;
+}
+.memoji-4 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+  left: auto;
+  top: auto;
+}
+
 
 /* ------------------------------ Services ------------------------------ */
 
-/* Your CSS code goes here */
-
+.services{
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 45px;
+    grid-row-gap: 0px;
+    -ms-grid-row-align: center;
+  }
 /* ------------------------------ Questions form ------------------------------ */
 
-/* Your CSS code goes here */
+#questions {
+  background-color: #ffc600;
+  height: 400px;
+  margin-top: 150px;
+  max-width: 1215px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#questions p {
+  color: #6c718b;
+  font-weight: 400;
+  margin: 20px 0 50px 0;
+}
+
+.title-subscribe h2 {
+  font-size: 2.5rem;
+}
+
+#email-input {
+  border: 0;
+  height: 70px;
+  font-weight: 400;
+  font-size: 1.1rem;
+  width: 500px;
+  background: url("../images/newsletter/icon/mail.svg") no-repeat scroll 7px 7px;
+  background-position: 3% 50%;
+  background-color: white;
+  padding-left: 50px;
+}
+
+.email-subscribe {
+  width: 100%;
+}
+
+#email-sub-btn {
+  background-color: #072ac8;
+  color: white;
+  font-weight: 500;
+  font-size: 1.05rem;
+  padding: 25px 50px 25px 50px;
+  text-decoration: none;
+  margin-left: 12px;
+}
 
 /* ------------------------------ Footer ------------------------------ */
 
