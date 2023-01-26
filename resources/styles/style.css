@@ -23,7 +23,6 @@ body {
 }
 
 
-
 /* ------------------------------------------------------------------------ */
 /* ------------------------------ INDEX html ------------------------------ */
 /* ------------------------------------------------------------------------ */
@@ -186,25 +185,7 @@ header button>a{
   max-width: 55%;
   /* z-index: 999; */
 }
-#logos{
-  display: flex;
-  flex-wrap: wrap;
-  /* width: 90vw; */
-  animation: none;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  
-}
-.logosBox{
-  justify-content: space-around;
-  flex-direction: row;
-  display: flex;
-  margin: 76px 100px; 
-}
-.logoSize{
-  width: 4rem
-}
+
 .hamburger{
   display: none;
   cursor:pointer
@@ -232,6 +213,54 @@ header>button{
 .title h2{
   font-size: 2rem;
 }
+
+#logos{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vw;
+  animation: none;
+  justify-content: center;
+  align-items: center;
+  margin-left:5%;
+  overflow-x: hidden;
+  /* background: red; */
+}
+.logosBox{
+  justify-content: space-around;
+  flex-direction: row;
+  display: flex;
+  margin: 76px 100px; 
+  animation: scrolling 15s linear infinite;
+  /* position: fixed; */
+  left: 0;
+  bottom: 400px;
+}
+
+.logosBox img{
+  width: 7vw;
+  flex-shrink: 0;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5vw;
+}
+
+
+.logoSize{
+  width: 4rem
+}
+
+@keyframes scrolling {
+  0%{
+        transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(-100vw);
+  }
+}
+  
+
 /* ------------------------------ Recent projects ------------------------------ */
 
 .projectsBox{
