@@ -738,4 +738,16 @@ iframe{
 
 /* ------------------------------ Sticky scroll bar ------------------------------ */
 
-/* Your CSS code goes here */
+.scrollUp {
+  height: 2vw;
+  width: 100%;
+  background-color: transparent;
+  position: sticky;
+  text-align: center;
+  bottom: 0;
+  text-decoration: none;
+}
+.scrollUp:hover {
+  background-color: #292e47;
+  text-decoration:#f2f4fc;
+}
