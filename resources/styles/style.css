@@ -12,7 +12,7 @@
 }
 
 
-li{
+li {
   list-style: none;
 }
 
@@ -27,9 +27,10 @@ body {
 /* ------------------------------------------------------------------------ */
 /* ------------------------------ INDEX html ------------------------------ */
 /* ------------------------------------------------------------------------ */
-main{
+main {
   width: 80%;
 }
+
 /* ------------------------------ Splash page ------------------------------ */
 
 /* Your CSS code goes here */
@@ -45,27 +46,21 @@ main{
 /* ------------------------------ Header ------------------------------ */
 
 
-header{
-  
+header {
+
   display: flex;
   justify-content: space-around;
   padding-top: 90px;
   padding-bottom: 90px;
 }
-#header-ul{
+
+#header-ul {
   width: 20%;
- 
+
 }
-/* .bar{
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin:5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition:all 0.3s ease-in-out ;
-} */
-#header-ul>ul
-header>button{
+
+
+#burger-menu>ul header>button {
   background-color: blue;
   height: 50vw;
   color: white;
@@ -73,10 +68,12 @@ header>button{
   color: grey;
   align-items: baseline;
 }
-#header-ul>ul>li{
+
+#burger-menu>ul>li {
   width: 799vw;
 }
-header button{
+
+header button {
   background-color: blue;
   color: white;
   width: 144px;
@@ -85,47 +82,49 @@ header button{
   align-items: center;
   justify-content: center;
   border: #072ac8;
-  
+
 }
-header button>a{
+
+header button>a {
   color: white;
   text-decoration: none;
 }
-#header-ul>ul{
+
+.burger-menu>ul {
   display: flex;
   justify-content: space-between;
-  
+
 }
-#header-ul>ul>li>a{
+
+.burger-menu>ul>li>a {
   color: #000;
   text-decoration: none;
   width: 70vw;
 }
 
-#presentation{
+#presentation {
   width: 80vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 4%;
   padding: 5%
-  
 }
 
-.textBtnBox{
+.textBtnBox {
   flex-direction: column-reverse;
 }
 
-#presentation> div {
+#presentation>div {
   width: 46%;
 }
 
-.presentationText h1{
+.presentationText h1 {
   font-size: 3.9rem;
   color: #292e47;
 }
 
-.presentationText p{
+.presentationText p {
   font-size: 1.3rem;
   color: #6b708d;
   font-weight: 400;
@@ -134,25 +133,25 @@ header button>a{
 }
 
 
-.btnsPresentation{
+.btnsPresentation {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
 }
 
-.btnWhite{
+.btnWhite {
   margin-bottom: 30px;
   background-color: #072ac8;
-  color:antiquewhite;
+  color: antiquewhite;
   padding: 2%;
   text-decoration: none;
   font-weight: bold;
 
 }
 
-.btnBlue{
+.btnBlue {
   margin-bottom: 30px;
   color: #292e47;
   padding: 2%;
@@ -160,11 +159,11 @@ header button>a{
   font-weight: bold;
 }
 
-.imgBlock{
+.imgBlock {
   position: relative;
 }
 
-.creditCard{
+.creditCard {
   position: absolute;
   left: -20%;
   top: 0%;
@@ -173,11 +172,11 @@ header button>a{
   max-width: 55%;
 }
 
-.heroImg{
+.heroImg {
   width: 100%;
 }
 
-.card2{
+.card2 {
   position: absolute;
   left: auto;
   top: auto;
@@ -186,7 +185,8 @@ header button>a{
   max-width: 55%;
   /* z-index: 999; */
 }
-#logos{
+
+#logos {
   display: flex;
   flex-wrap: wrap;
   /* width: 90vw; */
@@ -194,23 +194,19 @@ header button>a{
   justify-content: center;
   align-items: center;
   margin: auto;
-  
+
 }
-.logosBox{
+
+.logosBox {
   justify-content: space-around;
   flex-direction: row;
   display: flex;
-  margin: 76px 100px; 
+  margin: 76px 100px;
 }
-.logoSize{
-  width: 4rem
-}
-.hamburger{
-  display: none;
-  cursor:pointer
-}
-#header-ul>ul
-header>button{
+
+
+
+#header-ul>ul header>button {
   background-color: blue;
   height: 50vw;
   color: white;
@@ -218,51 +214,53 @@ header>button{
   color: grey;
   align-items: baseline;
 }
-#header-ul>ul>li{
+
+#header-ul>ul>li {
   width: 799vw;
 }
 
 /* ------------------------------ Partners ------------------------------ */
 
 /* Your CSS code goes here */
-.title{
+.title {
   margin: 100px 0 75px 0;
 }
 
-.title h2{
+.title h2 {
   font-size: 2rem;
 }
+
 /* ------------------------------ Recent projects ------------------------------ */
 
-.projectsBox{
-      display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 40px;
-    grid-row-gap: 40px;
-    margin: 0 40px 0 40px;
-    width: 100%;
-  }
+.projectsBox {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+  margin: 0 40px 0 40px;
+  width: 100%;
+}
 
-  .projectTitle{
-    margin-left: 30px;
-  }
+.projectTitle {
+  margin-left: 30px;
+}
 
-  .projectsImg{
-    object-fit: cover;
-    max-height: 25vw;
-    max-width: 25vw;
-    height: 25vw;
-    width: 25vw;
-    height: 240px;
-    width: 300px;
-  }
+.projectsImg {
+  object-fit: cover;
+  max-height: 25vw;
+  max-width: 25vw;
+  height: 25vw;
+  width: 25vw;
+  height: 240px;
+  width: 300px;
+}
 
-  #projects .projectsBox{
-    display: flex;
-    flex-direction: row;
-    /* max-width: 50vw; */
-  }
+#projects .projectsBox {
+  display: flex;
+  flex-direction: row;
+  /* max-width: 50vw; */
+}
 
 /* ------------------------------ Client reviews ------------------------------ */
 #reviews {
@@ -280,10 +278,11 @@ header>button{
   align-items: center;
   position: relative;
 }
-#reviews-center{
+
+#reviews-center {
   display: flex;
   justify-content: center;
-  
+
 }
 
 #reviews h2 {
@@ -303,9 +302,13 @@ header>button{
   /* justify-content: space-around; */
 }
 
+.logoSize {
+  width: 12vw;
+}
+
 .clientReview img {
   width: 50px;
-  height:50px;
+  height: 50px;
   border-radius: 100px;
   margin-right: 10px;
 }
@@ -336,6 +339,7 @@ header>button{
   right: auto;
   bottom: auto;
 }
+
 .memoji-2 {
   width: 150px;
   height: 150px;
@@ -345,6 +349,7 @@ header>button{
   left: auto;
   bottom: auto;
 }
+
 .memoji-3 {
   width: 150px;
   height: 150px;
@@ -354,6 +359,7 @@ header>button{
   right: auto;
   top: auto;
 }
+
 .memoji-4 {
   width: 150px;
   height: 150px;
@@ -367,39 +373,43 @@ header>button{
 
 /* ------------------------------ Services ------------------------------ */
 
-.services{
+.services {
   display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    grid-column-gap: 45px;
-    grid-row-gap: 0px;
-    -ms-grid-row-align: center;
-    background-color:#f2f4fc ;
-    padding: 15px;
-  }
-  .services-list{
-    background-color: #ffffff;
-     padding-top:1vw;
-    padding-bottom:1vw;
-    padding-left:3vw;
-    padding-right:3vw; 
-    width: 60%;
-    margin-bottom:20px;
-  }
-  .icon-main{
-    background-color: #f2f4fc;
-    padding: 20px;
-    border-radius: 35px;
-  }
-  .services button{
-    color:#072ac8;
-    border: none;
-    background-color: #ffffff;
-    margin-top: 5px;
-    font-size: 16px;
-    font-family: "Roboto", sans-serif;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 45px;
+  grid-row-gap: 0px;
+  -ms-grid-row-align: center;
+  background-color: #f2f4fc;
+  padding: 15px;
+}
 
-  }
+.services-list {
+  background-color: #ffffff;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+.icon-main {
+  background-color: #f2f4fc;
+  padding: 20px;
+  border-radius: 35px;
+}
+
+.services button {
+  color: #072ac8;
+  border: none;
+  background-color: #ffffff;
+  margin-top: 5px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+
+}
+
 /* ------------------------------ Questions form ------------------------------ */
 
 #questions {
@@ -415,7 +425,7 @@ header>button{
 
 #questions p {
   color: #6c718b;
-  
+
   margin: 0px 0 50px 0;
 }
 
@@ -424,15 +434,15 @@ header>button{
   width: 100%;
   color: #292e47;
 }
-.letter{
-  background: url("../images/newsletter/icon/mail.svg") no-repeat scroll 7px 7px;
 
+.letter {
+  background: url("../images/newsletter/icon/mail.svg") no-repeat scroll 7px 7px;
 }
-.form-yellow{
+.form-yellow {
   margin: 0;
 }
-.button-yellow{
-  margin:0;
+.button-yellow {
+  margin: 0;
 }
 #email-input {
   border: 0;
@@ -443,7 +453,7 @@ header>button{
   background: url("../images/newsletter/icon/mail.svg") no-repeat scroll 7px 7px;
   background-position: 3% 50%;
   background-color: white;
-  
+
 }
 
 .emailQuestion {
@@ -459,34 +469,38 @@ header>button{
   text-decoration: none;
   margin-left: 12px;
 }
-.question-form{
+
+.question-form {
   width: 80%;
   display: flex;
   justify-content: center;
   flex-direction: raw;
 }
-.question-form form{
+
+.question-form form {
   display: flex;
 }
+
 .fa-thin {
   width: 200px;
 }
 
 /* ------------------------------ Footer ------------------------------ */
 
-footer{
+footer {
   display: flex;
   justify-content: space-between;
-  margin-top:70px;
+  margin-top: 70px;
   margin-bottom: 70px;
   background-color: #f2f4fc;
 }
-.footer-left img{
+
+.footer-left img {
   width: 95px;
   margin-bottom: 15px;
 }
 
-.footer-right>ul{
+.footer-right>ul {
   display: flex;
   color: blue;
   width: 55%;
@@ -494,7 +508,8 @@ footer{
   flex-wrap: wrap;
   margin-bottom: 40px;
 }
-.footer-right>ul>li{
+
+.footer-right>ul>li {
   margin-top: 20px;
   margin-right: 5px;
   margin-left: 0;
@@ -507,32 +522,38 @@ footer{
 /* -------------------------------------------------------------------------- */
 
 /* ------------------------------ Project main ------------------------------ */
-body{
+body {
   background-color: #f2f4fc;
 }
-.project{
-  background-color: #ffffff;;
+
+.project {
+  background-color: #ffffff;
+  ;
 }
-.top-img{
+
+.top-img {
   display: flex;
-  
+
 }
-.img-flex{
+
+.img-flex {
   display: flex;
   justify-content: center;
 }
-.projects-section1{
+
+.projects-section1 {
   width: 100%;
-  background-size:cover;
-  background-position:center;
-  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   margin-bottom: 30px;
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  
+
 }
-main p{
+
+main p {
   font-size: 20px;
   color: #a9acb7;
 }
@@ -543,64 +564,75 @@ main p{
 
 /* ------------------------------ Form ------------------------------ */
 
-h1{
-  color:#292e47;
+h1 {
+  color: #292e47;
   margin: 0 auto;
   margin-bottom: 20px;
   font-size: 48px;
 }
-form{
+
+form {
   margin: 0 auto;
   width: 80%;
-  
+
 }
-form h4{
+
+form h4 {
   display: inline-block;
 }
-.center-form{
+
+.center-form {
   display: flex;
 }
-.center-form li{
+
+.center-form li {
   width: 50%;
 }
-input{
+
+input {
   width: 100%;
   background-color: #e4e6f0;
   border: none;
   height: 80px;
   margin-bottom: 30px;
-} 
+}
 
-#form-name{
+#form-name {
   width: 100%;
 }
-#form-mail{
+
+#form-mail {
   width: 96%;
 }
-label{
-  color:#ceced2;
-  
+
+label {
+  color: #ceced2;
+  margin-left: 37px;
+
 }
-::placeholder{
-  color:#ceced2;
+
+::placeholder {
+  color: #ceced2;
   font-size: 20px;
   padding: 10px;
 }
 
-textarea{
+textarea {
   width: 100%;
   background-color: #e4e6f0;
   border: none;
   margin-top: 10px;
 }
-input{
+
+input {
   width: 100%;
   margin-top: 10px;
 }
-#submit-form{
+
+#submit-form {
   width: 100%;
   height: 65px;
-  background-color: #6a7fde;
+  background-color: #072ac8;
   color: #ffffff;
 
 }
@@ -608,254 +640,384 @@ input{
 /* ----------------------------------------------------------------------------- */
 /* ------------------------------ About html ------------------------------ */
 /* ----------------------------------------------------------------------------- */
-h2{
+h2 {
   margin-bottom: 15px;
   margin-left: 20px;
 }
-.music ul{
+
+.music ul {
   display: flex;
   flex-direction: column;
 }
-.li-about{
+
+.li-about {
   text-align: center;
   margin-top: 25px;
 }
-h6{
+
+h6 {
   display: inline;
   font-size: 16px;
 }
-li p{
+
+li p {
   display: inline-block;
 }
-.center-iframe{
+
+.center-iframe {
   margin-top: 10px;
   display: flex;
   justify-content: center;
 }
-iframe{
+
+iframe {
   display: flex;
   width: 30%;
   align-items: center;
   height: 250px;
 }
+  /* --------------------------------------------------------------------------- */
+  /* ------------------------------ MEDIA QUERIES ------------------------------ */
+  /* --------------------------------------------------------------------------- */
 
-/* --------------------------------------------------------------------------- */
-/* ------------------------------ MEDIA QUERIES ------------------------------ */
-/* --------------------------------------------------------------------------- */
+  /* ------------------------- Smaller than 990px (tablet) ------------------------- */
+  @media (max-width: 990px) {
+    /* DIEGO SAYS THAN WE DON'T HAVE TO DO IT! */
+  }
 
-/* ------------------------- Smaller than 990px (tablet) ------------------------- */
-@media (max-width: 990px) {
-  /* DIEGO SAYS THAN WE DON'T HAVE TO DO IT! */
+  /* ------------------------- Smaller than 766px (mobile) ------------------------- */
+  @media (max-width: 766px) {
+    main {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+/*Responsive burguer */
+#burger-menu {
+  cursor: pointer;
+  height: 27px;
+  width: 27px;
+  margin: 50px;
+  overflow: visible;
+  position: relative;
+  z-index:2;
 }
-
-/* ------------------------- Smaller than 766px (mobile) ------------------------- */
-@media (max-width: 766px) {
-  main{
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header button{
-    display: none;
-  }
-  .nav-link{
-    transition: 0.7s ease;
-  }
-  .nav-link:hover{
-    color: dodgerblue;
-  }
-  .hamburger{
-    display: block;
-  }
-  .hamburguer.active .bar:nth-child(2){
-    opacity:0
-  }
-  .hamburguer.active .bar:nth-child(1){
-    transform: translateY(8px) rotate(45deg);
-  }
-  .hamburguer.active .bar:nth-child(3){
-    transform: translateY(-8px) rotate(-45deg);
-  }
-  .nav-menu{
-    position: fixed;
-    left: -100%;
-    top: 70px;
-    gap:0;
-    flex-direction: column;
-    background-color: #262626;
-    width: 100%;
-    text-align: center;
-    transition: 0.3s;
-  }
-  .nav-item{
-    margin: 16px 0;
-  }
-  .nav-menu-active{
-    left: 0;
-  }
-  .bar{
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin:5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition:all 0.3s ease-in-out ;
-  }
-  .creditCard{
-    display: none;
-  }
-  .card2{
-    display: none;
-  }
-  #presentation{
-    flex-direction: column;
-    text-align: center;
-  }
-  #presentation h1{
-    flex-wrap: wrap;
-    font-size: 40px;
-  }
-  /* #logos{
-    flex-wrap: wrap;
-  } */
-  .logosBox{
-    margin: 0 auto;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-  }
-  #reviews{
-    display: flex;
-    justify-content: center;
-  }
-  .project{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 80%;
-    background-color: #ffffff;
-}
-  
-  .logoSize {
-    width: 6rem;
-    margin: 2vw;
-}
-  #projects .projectsBox{
-    display: flex;
-    flex-direction: column;
-  }
-  .projectsImg{
-    min-width: 100%;
-    margin:0;
-    max-height: 50vw;
-  }
-  #questions{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    height: 400px;
-    justify-content: center;
-
-  }
-  #reviews{
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-  .reviews-center{
-    min-width: 125%;
-  }
-  .memoji-1{
-    display: none;
-  }
-  .memoji-2{
-    display: none;
-  }
-  .memoji-3{
-    display: none;
-  }
-  .memoji-4{
-    display: none;
-  }
-  #services{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .services{
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    align-items: center;
-  }
-
-  #email-input{
-    width: 80%;
-  }
-#email-sub-btn{
+#burger-menu span,
+#burger-menu span:before,
+#burger-menu span:after {
+  background: #fff;
   display: block;
-  margin: 0 auto;
-  width: 80%;
+  height: 4px;
+  opacity: 1;
+  position: absolute;
+  transition: 0.3s ease-in-out;
 }
-/* Footer */
-footer{
-  flex-direction: column;
-  align-items: center ;
+#burger-menu span:before,
+#burger-menu span:after {
+  content: "";
 }
-.footer-right{
+#burger-menu span {
+  right: 0px;
+  top: 13px;
+  width: 27px;
+}
+#burger-menu span:before {
+  left: 0px;
+  top: -10px;
+  width: 16px;
+}
+#burger-menu span:after {
+  left: 0px;
+  top: 10px;
+  width: 20px;
+}
+
+#burger-menu.close span {
+  transform: rotate(-45deg);
+  top: 13px;
+  width: 27px;
+}
+#burger-menu.close span:before {
+  top: 0px;
+  transform: rotate(90deg);
+  width: 27px;
+}
+#burger-menu.close span:after {
+  top: 0px;
+  left:0;
+  transform: rotate(90deg);
+  opacity:0;
+  width:0;
+}
+
+#menu{
+  z-index:1;
+  min-width:100%;
+  min-height:100%;
+  position: fixed;
+  top:0;
+  height:0;
+  visibility: hidden;
+  opacity: 0;
+  text-align:center;
+  padding-top:20px;
+  transition: all 0.3s ease-in-out;
+  
+}
+
+#menu.overlay{
+  visibility: visible;
+  opacity: 1;
+  padding-top:100px;
+  background:rgba(0,0,0,0.5);
+}
+
+#menu li{
+  list-style:none;
+}
+#menu a{
+  color:#fff;
+  display:block;
+  font-size: 32px;
+  margin-bottom:30px;
+  text-decoration:none;
+}
+/*End of responsive Burger */
+    
+    
+    .nav-menu {
+      position: fixed;
+      left: -100%;
+      top: 70px;
+      gap: 0;
+      flex-direction: column;
+      background-color: #c8c8c8;
+      width: 100%;
+      text-align: left;
+      transition: 0.3s;
+     }
+    
+     .nav-menu li {
+      margin: 10px 0;
+     }
+    
+    .nav-menu.active {
+      left: 0;
+    }
+  
+    #navlist ul {
+      gap: 0;
+    }
+    .creditCard {
+      display: none;
+    }
+
+    .card2 {
+      display: none;
+    }
+
+    .logoSize {
+      width: 4rem
+    }
+
+    #presentation {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    #presentation h1 {
+      flex-wrap: wrap;
+      font-size: 40px;
+    }
+
+    /* #logos{
+    flex-wrap: wrap;
+   */
+    .logosBox {
+      margin: 0 auto;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+
+    #reviews {
+      display: flex;
+      justify-content: center;
+    }
+
+    .project {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 80%;
+      background-color: #ffffff;
+    }
+
+    .logoSize {
+      width: 6rem;
+      margin: 2vw;
+    }
+
+    #projects .projectsBox {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .projectsImg {
+      min-width: 100%;
+      margin: 0;
+      max-height: 50vw;
+    }
+
+    #questions {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      height: 400px;
+      justify-content: center;
+
+    }
+
+    #reviews {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    .reviews-center {
+      min-width: 125%;
+    }
+
+    .memoji-1 {
+      display: none;
+    }
+
+    .memoji-2 {
+      display: none;
+    }
+
+    .memoji-3 {
+      display: none;
+    }
+
+    .memoji-4 {
+      display: none;
+    }
+
+    #services {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .services {
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      align-items: center;
+    }
+
+    #email-input {
+      width: 80%;
+    }
+
+    #email-sub-btn {
+      display: block;
+      margin: 0 auto;
+      width: 80%;
+    }
+
+    footer {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .footer-right {
+      display: flex;
+      justify-content: center;
+    }
+
+    /* Form */
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .center-form {
+      display: block;
+    }
+
+    .center-form li {
+      width: 100%;
+    }
+  }
+
+
+  /* Center text */
+
+
+  /* ------------------------------ Hamburguer menu ------------------------------ */
+
+  #toggle{
+  display:none;
+}
+#container{
+  display: none;
+}
+
+header button>a {
+  color: white;
+  text-decoration: none;
+}
+#header ul{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
-/* Form */
-form{
+.nav-menu a {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
 }
-.center-form{
-  display: block;
+
+.nav-item>a{
+  color: #000;
+  text-decoration: none;
+  width: 8vw;
 }
-.center-form li{
-  width: 100%;
-}
-/* Center text */
 
+  
+  /* ------------------------------ Alert ------------------------------ */
 
-/* ------------------------------ Hamburguer menu ------------------------------ */
+  /* Your CSS code goes here */
 
-/* Your CSS code goes here */
+  /* ------------------------------ Sticky scroll bar ------------------------------ */
 
-/* ------------------------------ Alert ------------------------------ */
-
-/* Your CSS code goes here */
-
-/* ------------------------------ Sticky scroll bar ------------------------------ */
-
-.scrollUp {
+  /* .scrollUp {
     position: sticky;
     bottom: 0;
-    color:black;
+    color: black;
     text-align: center;
     padding: 1rem;
     text-decoration: none;
     z-index: 999;
-}
+  } 
 
-.scrollUp:hover{
-background: black;
-color: white;
-}
+  .scrollUp:hover {
+    background: black;
+    color: white;
+  }
 
-.our-links{
-  text-decoration: none;
-  color: rgba(0, 0, 0, 0.299);
-}
+  .our-links {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.299);
+  }
 
-.our-links:active{
-  text-decoration: none;
-  color: rgba(0, 0, 0, 0.299);
-}
+  .our-links:active {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.299);
+  }
 
-.our-links:hover{
-  text-decoration: none;
-  color: white;
-}
+  .our-links:hover {
+    text-decoration: none;
+    color: white;
+  } */

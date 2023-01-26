@@ -1,8 +1,6 @@
-const hamburguer = document.querySelector(".hamburguer")
-const navMenu = document.querySelector(".nav-menu")
-
-hamburguer.addEventListener("click", () => {
-    hamburguer.classList.toggle("active");
-    navMenu.classList.toggle("active");
-
-})
+var burgerMenu = document.getElementById('burger-menu');
+var overlay = document.getElementById('menu');
+burgerMenu.addEventListener('click',function(){
+  this.classList.toggle("close");
+  overlay.classList.toggle("overlay");
+});
