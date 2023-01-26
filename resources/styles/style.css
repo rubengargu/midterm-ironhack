@@ -282,7 +282,7 @@ header>button{
 }
 #reviews-center{
   display: flex;
-  justify-self: center;
+  justify-content: center;
   
 }
 
@@ -565,7 +565,7 @@ form h4{
 }
 input{
   width: 100%;
-  background-color: #eff0f6;
+  background-color: #e4e6f0;
   border: none;
   height: 80px;
   margin-bottom: 30px;
@@ -806,6 +806,16 @@ footer{
   display: flex;
   justify-content: center;
 }
+/* Form */
+form{
+  display: flex;
+  flex-direction: column;
+}
+.center-form{
+  display: block;
+}
+.center-form li{
+  width: 100%;
 }
 /* Center text */
 
