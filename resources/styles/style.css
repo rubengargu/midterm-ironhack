@@ -9,14 +9,17 @@
   margin-top: 1%;
   padding: 0;
   box-sizing: border-box;
-  
 }
+
+
 li{
   list-style: none;
 }
 
 body {
   font-family: "Roboto", sans-serif;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 
@@ -381,6 +384,7 @@ header>button{
     padding-left:3vw;
     padding-right:3vw; */
     width: 60%;
+    margin-bottom:20px;
   }
   .icon-main{
     background-color: #f2f4fc;
@@ -506,7 +510,9 @@ footer{
 body{
   background-color: #f2f4fc;
 }
-
+.project{
+  background-color: #ffffff;;
+}
 .top-img{
   display: flex;
   
@@ -644,6 +650,12 @@ iframe{
 
 /* ------------------------- Smaller than 766px (mobile) ------------------------- */
 @media (max-width: 766px) {
+  main{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
   header button{
     display: none;
   }
@@ -690,6 +702,12 @@ iframe{
     -webkit-transition: all 0.3s ease-in-out;
     transition:all 0.3s ease-in-out ;
   }
+  .creditCard{
+    display: none;
+  }
+  .card2{
+    display: none;
+  }
   #presentation{
     flex-direction: column;
     text-align: center;
@@ -698,15 +716,37 @@ iframe{
     flex-wrap: wrap;
     font-size: 40px;
   }
-  #logos{
-    flex-wrap: nowrap;
+  /* #logos{
+    flex-wrap: wrap;
+  } */
+  .logosBox{
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
   }
+  #reviews{
+    display: flex;
+    justify-content: center;
+  }
+  .project{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%;
+    background-color: #ffffff;
+}
+  
+  .logoSize {
+    width: 6rem;
+    margin: 2vw;
+}
   #projects .projectsBox{
     display: flex;
     flex-direction: column;
   }
   .projectsImg{
-    max-width: 100%;
+    min-width: 100%;
     margin:0;
     max-height: 50vw;
   }
@@ -718,12 +758,54 @@ iframe{
     justify-content: center;
 
   }
-  .emailQuestion{
-    
+  #reviews{
+    margin-left: 0px;
+    margin-right: 0px;
   }
+  .reviews-center{
+    min-width: 125%;
+  }
+  .memoji-1{
+    display: none;
+  }
+  .memoji-2{
+    display: none;
+  }
+  .memoji-3{
+    display: none;
+  }
+  .memoji-4{
+    display: none;
+  }
+  #services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .services{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+  }
+
   #email-input{
     width: 80%;
   }
+#email-sub-btn{
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+/* Footer */
+footer{
+  flex-direction: column;
+  align-items: center ;
+}
+.footer-right{
+  display: flex;
+  justify-content: center;
+}
 }
 /* Center text */
 
