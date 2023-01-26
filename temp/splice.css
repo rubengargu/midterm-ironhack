@@ -1,0 +1,31 @@
+
+.logosBox2{
+    justify-content: space-around;
+    flex-direction: row;
+    display: flex;
+    margin: 76px 100px; 
+    animation: scrollingAlt 20s linear infinite;
+    /* position: fixed; */
+     left: 0;
+    bottom: 400px;
+    animation: scrollingAlt 10s linear infinite;
+  }
+  
+  .logosBox2 img{
+    width: 7vw;
+    flex-shrink: 0;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5vw;
+  } 
+
+@keyframes scrollingAlt {
+    from {
+      transform: translateX(140vw);
+    }
+    to {
+      transform: translateX(0);
+    }
+}

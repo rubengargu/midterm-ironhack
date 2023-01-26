@@ -217,19 +217,23 @@ header>button{
 #logos{
   display: flex;
   flex-wrap: wrap;
-  width: 90vw;
+  width: 80vw;
   animation: none;
   justify-content: center;
   align-items: center;
-  margin: auto;
-  
+  margin-left:5%;
+  overflow-x: hidden;
+  /* background: red; */
 }
 .logosBox{
   justify-content: space-around;
   flex-direction: row;
   display: flex;
   margin: 76px 100px; 
-  animation: scrolling 20s linear infinite;
+  animation: scrolling 15s linear infinite;
+  /* position: fixed; */
+  left: 0;
+  bottom: 400px;
 }
 
 .logosBox img{
@@ -241,62 +245,21 @@ header>button{
   align-items: center;
   margin-right: 5vw;
 }
+
+
 .logoSize{
   width: 4rem
 }
 
 @keyframes scrolling {
-  0% {
-    transform: translateX(0);
-  }
-  25% {
-    transform: translateX(-80vw);
-  }
-  50% {
-    transform: translateX(0);
-  }
-  75% {
-    transform: translateX(80vw);
+  0%{
+        transform: translateX(100vw);
   }
   100% {
-    transform: translateX(0);
-  }
-
-
-}
-
-/* @keyframes scroll{
-  0%{
-    transform:translateX(0);
-  }
-  100%{
-    transform:translateX(calc(-250px * 7));
+    transform: translateX(-100vw);
   }
 }
-.slider{
-  height:20vw;
-  margin: auto;
-  overflow: hidden;
-  position: relative;
-  width: auto;
-}
-
-.slide-track{
-overflow: hidden;
-position:relative;
-}
-
-.slider .slide-track{
-  animation: scroll 40s linear infinite;
-  display:flex;
-  width: calc(250px *14);
-}
-
-.slider .slide{
-  height: 100px;
-  width: 250x;
-}
- */
+  
 
 /* ------------------------------ Recent projects ------------------------------ */
 
