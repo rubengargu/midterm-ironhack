@@ -5,13 +5,11 @@
 
 function getValue() {
     const currentUrl = window.location.href;
-    const urlElements = currentUrl.charAt(29);
+    const urlElements = currentUrl.slice(-1);
     return urlElements;
 }
 
 console.log(getValue()); // Output: "1"
-
-/* let postUrl = new URLSearchParams(location.search) /* || 1 */
 
 let postUrl = getValue() || 1;
 
@@ -37,6 +35,11 @@ const getPost = (post) => {
 
 getPost(postUrl); 
 
+window.onhashchange = function() {
+    postUrl = getValue() || 1;
+    getPost(postUrl);
+  }
+
  //same function to get 3 post than index.js
 
  const get3posts = () => {
@@ -48,7 +51,7 @@ getPost(postUrl);
             <img src="./resources/images/projects-section/${res[i].id}.jpg" alt="" class ="projectsImg">
             <h3>${res[i].title}</h3>
             <p>${res[i].body}</p>
-            <a href="project.html?p=${res[i].id}">Learn More</a>
+            <a href="project${res[i].id}.html">Learn More</a>
             </div>`;
         }
     })
