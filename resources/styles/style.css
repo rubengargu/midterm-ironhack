@@ -379,7 +379,7 @@ header>button{
      padding-top:1vw;
     padding-bottom:1vw;
     padding-left:3vw;
-    padding-right:3vw; */
+    padding-right:3vw; 
     width: 60%;
   }
   .icon-main{
@@ -639,7 +639,7 @@ iframe{
 
 /* ------------------------- Smaller than 990px (tablet) ------------------------- */
 @media (max-width: 990px) {
-  //DIEGO SAYS THAN WE DON'T HAVE TO DO IT!
+  /* DIEGO SAYS THAN WE DON'T HAVE TO DO IT! */
 }
 
 /* ------------------------- Smaller than 766px (mobile) ------------------------- */
@@ -718,9 +718,9 @@ iframe{
     justify-content: center;
 
   }
-  .emailQuestion{
+  /* .emailQuestion{
     
-  }
+  } */
   #email-input{
     width: 80%;
   }
