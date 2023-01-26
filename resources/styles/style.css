@@ -382,7 +382,7 @@ header>button{
      padding-top:1vw;
     padding-bottom:1vw;
     padding-left:3vw;
-    padding-right:3vw; */
+    padding-right:3vw; 
     width: 60%;
     margin-bottom:20px;
   }
@@ -645,7 +645,7 @@ iframe{
 
 /* ------------------------- Smaller than 990px (tablet) ------------------------- */
 @media (max-width: 990px) {
-  //DIEGO SAYS THAN WE DON'T HAVE TO DO IT!
+  /* DIEGO SAYS THAN WE DON'T HAVE TO DO IT! */
 }
 
 /* ------------------------- Smaller than 766px (mobile) ------------------------- */
@@ -820,4 +820,32 @@ footer{
 
 /* ------------------------------ Sticky scroll bar ------------------------------ */
 
-/* Your CSS code goes here */
+.scrollUp {
+    position: sticky;
+    bottom: 0;
+    color:black;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    z-index: 999;
+}
+
+.scrollUp:hover{
+background: black;
+color: white;
+}
+
+.our-links{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.299);
+}
+
+.our-links:active{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.299);
+}
+
+.our-links:hover{
+  text-decoration: none;
+  color: white;
+}
