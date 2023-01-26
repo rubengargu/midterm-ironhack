@@ -739,15 +739,31 @@ iframe{
 /* ------------------------------ Sticky scroll bar ------------------------------ */
 
 .scrollUp {
-  height: 2vw;
-  width: 100%;
-  background-color: transparent;
-  position: sticky;
-  text-align: center;
-  bottom: 0;
-  text-decoration: none;
+    position: sticky;
+    bottom: 0;
+    color:black;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    z-index: 999;
 }
-.scrollUp:hover {
-  background-color: #292e47;
-  text-decoration:#f2f4fc;
+
+.scrollUp:hover{
+background: black;
+color: white;
+}
+
+.our-links{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.299);
+}
+
+.our-links:active{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.299);
+}
+
+.our-links:hover{
+  text-decoration: none;
+  color: white;
 }
