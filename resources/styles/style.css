@@ -185,25 +185,7 @@ header button>a{
   max-width: 55%;
   /* z-index: 999; */
 }
-#logos{
-  display: flex;
-  flex-wrap: wrap;
-  /* width: 90vw; */
-  animation: none;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  
-}
-.logosBox{
-  justify-content: space-around;
-  flex-direction: row;
-  display: flex;
-  margin: 76px 100px; 
-}
-.logoSize{
-  width: 4rem
-}
+
 .hamburger{
   display: none;
   cursor:pointer
@@ -231,6 +213,91 @@ header>button{
 .title h2{
   font-size: 2rem;
 }
+
+#logos{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90vw;
+  animation: none;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  
+}
+.logosBox{
+  justify-content: space-around;
+  flex-direction: row;
+  display: flex;
+  margin: 76px 100px; 
+  animation: scrolling 20s linear infinite;
+}
+
+.logosBox img{
+  width: 7vw;
+  flex-shrink: 0;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5vw;
+}
+.logoSize{
+  width: 4rem
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-80vw);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(80vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+
+
+}
+
+/* @keyframes scroll{
+  0%{
+    transform:translateX(0);
+  }
+  100%{
+    transform:translateX(calc(-250px * 7));
+  }
+}
+.slider{
+  height:20vw;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: auto;
+}
+
+.slide-track{
+overflow: hidden;
+position:relative;
+}
+
+.slider .slide-track{
+  animation: scroll 40s linear infinite;
+  display:flex;
+  width: calc(250px *14);
+}
+
+.slider .slide{
+  height: 100px;
+  width: 250x;
+}
+ */
+
 /* ------------------------------ Recent projects ------------------------------ */
 
 .projectsBox{
