@@ -1,12 +1,20 @@
-const hamburguer = document.querySelector(".hamburger");
+/* const hamburger = document.querySelector(".hamburger");
 const navMenu= document.querySelector(".nav-menu");
 
-hamburguer.addEventListener("cick", () =>{
-    hamburguer.classList.toggle("active");
+hamburger.addEventListener("cick", () =>{
+    hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
 })
 document.querySelectorAll(".nav-link").forEach(n=>n.addEventListener("click", () =>{
-    hamburguer.classList.toggle("active");
+    hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
 
-}) )
+}) ) */
+
+const hamburger = document.querySelector(".hamburger")
+const navMenu = document.querySelector(".nav-menu")
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+})
