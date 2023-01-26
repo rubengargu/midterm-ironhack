@@ -53,6 +53,14 @@ header{
   width: 20%;
  
 }
+/* .bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin:5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition:all 0.3s ease-in-out ;
+} */
 #header-ul>ul
 header>button{
   background-color: blue;
@@ -193,6 +201,10 @@ header button>a{
 }
 .logoSize{
   width: 4rem
+}
+.hamburger{
+  display: none;
+  cursor:pointer
 }
 #header-ul>ul
 header>button{
@@ -627,13 +639,94 @@ iframe{
 
 /* ------------------------- Smaller than 990px (tablet) ------------------------- */
 @media (max-width: 990px) {
-  /* Your CSS code goes here */
+  //DIEGO SAYS THAN WE DON'T HAVE TO DO IT!
 }
 
 /* ------------------------- Smaller than 766px (mobile) ------------------------- */
 @media (max-width: 766px) {
-  /* Your CSS code goes here */
+  header button{
+    display: none;
+  }
+  .nav-link{
+    transition: 0.7s ease;
+  }
+  .nav-link:hover{
+    color: dodgerblue;
+  }
+  .hamburger{
+    display: block;
+  }
+  .hamburguer.active .bar:nth-child(2){
+    opacity:0
+  }
+  .hamburguer.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburguer.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .nav-menu{
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap:0;
+    flex-direction: column;
+    background-color: #262626;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+  .nav-item{
+    margin: 16px 0;
+  }
+  .nav-menu-active{
+    left: 0;
+  }
+  .bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin:5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out ;
+  }
+  #presentation{
+    flex-direction: column;
+    text-align: center;
+  }
+  #presentation h1{
+    flex-wrap: wrap;
+    font-size: 40px;
+  }
+  #logos{
+    flex-wrap: nowrap;
+  }
+  #projects .projectsBox{
+    display: flex;
+    flex-direction: column;
+  }
+  .projectsImg{
+    max-width: 100%;
+    margin:0;
+    max-height: 50vw;
+  }
+  #questions{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+
+  }
+  .emailQuestion{
+    
+  }
+  #email-input{
+    width: 80%;
+  }
 }
+/* Center text */
+
 
 /* ------------------------------ Hamburguer menu ------------------------------ */
 
