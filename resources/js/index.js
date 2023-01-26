@@ -17,3 +17,17 @@ const get3posts = () => {
 }
 
 window.addEventListener("load", get3posts);
+
+/* Función para hacer un scroll Up */
+
+let scrollBtn = document.querySelector(".scrollUp");
+
+const scrollMeAllTheWayUp = () => {
+  console.log(window);
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  })
+}
+
+scrollBtn.addEventListener("click", scrollMeAllTheWayUp)
