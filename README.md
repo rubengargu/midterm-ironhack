@@ -161,7 +161,7 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 ###### Jueves 26, Enero 2023
 
-- [ ] Terminar de enlazar
+- [x] Terminar de enlazar
 - [ ] Responsive
 - [ ] Pantalla de carga
 - [ ] Preparar presentación
