@@ -81,24 +81,24 @@ Tener un archivo README.md bien estructurado y bien documentado también puede s
 
 <img src="./resources/images/readMe/screenshot.png" alt="Logo" width="100%" height="50%">
 
-La sección "sobre el proyecto" en un archivo README es una sección importante que proporciona información general sobre el objetivo y la funcionalidad del proyecto.
+Este proyecto ha sido creado con los lenguajes HTML, CSS y JavaScript con el propósito de poner en práctica los conocimientos adquiridos a lo largo de estas tres semanas de Bootcamp simulando la elaboración de una página web de empresa.
 
-En esta sección se puede incluir información como:
+Para navegar por la página web hay distintas formas:
+En la barra de navegación tienes la posibilidad de acceder a las secciones de forma directa sin hacer scroll.
+Además, en cada sección hay habilitados botones por si el visitante tiene interés en conocer más a fondo aspectos de nuestra empresa.
+Hay una opción de hacer scroll top hasta arriba del todo de la página.
 
-- Una descripción breve del proyecto y su propósito
-- Tecnologías utilizadas
-- Funcionalidades principales
-- Instrucciones de instalación y configuración
-- Enlaces a documentación adicional o recursos relacionados con el proyecto
-- Licencia del proyecto
-- Contribuciones de las personas en el proyecto.
+Para hacer este proyecto, uno de los recursos más utilizados ha sido el repositorio creado en clase, accesible en el siguiente enlace:
+https://github.com/dzc1/class-jan09
 
-En resumen, la sección "sobre el proyecto" es una excelente manera de brindar a los usuarios y contribuidores una visión general del proyecto y proporcionarles toda la información necesaria para comenzar a trabajar con él.
+Este proyecto ha sido desarrollado por Rubén García y Eiden Andrés Reinaldo.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Construido Con
 
+Este proyecto ha sido desarrollado con HTML, CSS y JavaScript. Además, hemos usado 
 La sección "construido con" en un archivo README es una sección que proporciona información sobre las tecnologías y herramientas utilizadas para desarrollar el proyecto.
 
 En esta sección se puede incluir información como:
