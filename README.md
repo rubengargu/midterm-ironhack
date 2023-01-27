@@ -98,18 +98,12 @@ Este proyecto ha sido desarrollado por Rubén García y Eiden Andrés Reinaldo.
 
 ### Construido Con
 
-Este proyecto ha sido desarrollado con HTML, CSS y JavaScript. Además, hemos usado 
-La sección "construido con" en un archivo README es una sección que proporciona información sobre las tecnologías y herramientas utilizadas para desarrollar el proyecto.
+Este proyecto ha sido desarrollado con HTML, CSS y JavaScript. Además, hemos aprovechado la tecnologia Json ( https://jsonplaceholder.typicode.com/posts/ )para subir los distintos formularios a la nube, apareciendo un mensaje de éxito o fracaso del envío según su estado.
 
-En esta sección se puede incluir información como:
+Para el apartado About Us, hemos utilizado los frames para añadir vídeos de YouTube sobre temas de nuestro interés, con el fin de que podáis conocernos a un nivel más personal.
 
-- Lenguajes de programación utilizados
-- Frameworks y bibliotecas utilizadas
-- Herramientas de desarrollo (IDE, control de versiones, etc)
-- Servicios en la nube utilizados (si corresponde)
-- Otros recursos o tecnologías relacionadas con el proyecto.
+Para controlar las versiones, hemos utilizado esta plataforma (GitHub). Esto nos ha ayudado a trabajar de forma síncrona y asíncrona de manera complementaria.
 
-En resumen, la sección "construido con" es una excelente manera de brindar a los usuarios y contribuidores una compresión de las tecnologías y herramientas utilizadas para desarrollar el proyecto, esto ayuda a entender mejor el proyecto y a los desarrolladores a contribuir de manera efectiva.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,18 +156,17 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 ###### Jueves 26, Enero 2023
 
 - [x] Terminar de enlazar
-- [ ] Responsive
+- [x] Responsive
 - [ ] Pantalla de carga
-- [ ] Preparar presentación
 
 #### Day Five
 
 ###### Viernes 27, Enero 2023
 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
+- [x] Preparar presentación
+- [x] Terminar de redactar el README.md 
+- [x] Resolver errores
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -181,22 +174,17 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 ## Acerca
 
-La sección "sobre mí" en un archivo README es una sección que proporciona información sobre el desarrollador o equipo detrás del proyecto.
+Eiden Andreu (25), administrativo e integrador social, así como estudiante del Bootcamp Front-End de IronHack Barcelona.
+email de contacto: eidenreinaldo@gmail.com
+GitHub: https://github.com/EidenAndreu
 
-En esta sección se puede incluir información como:
+Rubén García (35), antiguo vendedor y estudiante del Bootcamp Front-End de IronHack Barcelona.
+email: rubengarciagut@gmail.com
+GitHub: https://github.com/Aeneras/
 
-- Nombre y datos de contacto del desarrollador o equipo.
-- Información sobre experiencia laboral o académica relacionada con el proyecto.
-- Enlaces a perfiles en redes sociales o sitios web personales.
-- Otra información relevante que el desarrollador o equipo desee compartir.
 
-En resumen, la sección "sobre mí" es una excelente manera de brindar a los usuarios y contribuidores una idea de quién está detrás del proyecto y cómo pueden ponerse en contacto con ellos si tienen preguntas o comentarios. Es una buena manera de establecer una conexión con la comunidad de desarrolladores y una forma de mostrar la transparencia en el proyecto.
+Link de presentación: https://www.canva.com/design/DAFY2m_dkzg/view
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-Presentation Link: [Insert here your presentation link](insert-link-here)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
