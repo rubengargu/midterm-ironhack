@@ -241,6 +241,52 @@ header button>a {
 .title h2 {
   font-size: 2rem;
 }
+#logos{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vw;
+  animation: none;
+  justify-content: center;
+  align-items: center;
+  margin-left:5%;
+  overflow-x: hidden;
+  /* background: red; */
+}
+.logosBox{
+  justify-content: space-around;
+  flex-direction: row;
+  display: flex;
+  margin: 76px 100px; 
+  animation: scrolling 15s linear infinite;
+  /* position: fixed; */
+  left: 0;
+  bottom: 400px;
+}
+
+.logosBox img{
+  width: 7vw;
+  flex-shrink: 0;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5vw;
+}
+
+
+.logoSize{
+  width: 4rem
+}
+
+@keyframes scrolling {
+  0%{
+        transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(-100vw);
+  }
+}
+  
 
 /* ------------------------------ Recent projects ------------------------------ */
 
@@ -709,94 +755,44 @@ iframe {
       padding: 0;
     }
 /*Responsive burguer */
-#burger-menu {
-  cursor: pointer;
-  height: 27px;
-  width: 27px;
-  margin: 50px;
-  overflow: visible;
-  position: relative;
-  z-index:2;
+header button{
+  display: none;
 }
-#burger-menu span,
-#burger-menu span:before,
-#burger-menu span:after {
-  background: #fff;
+.nav-link{
+  transition: 0.7s ease;
+}
+.nav-link:hover{
+  color: dodgerblue;
+}
+.hamburger{
   display: block;
-  height: 4px;
-  opacity: 1;
-  position: absolute;
-  transition: 0.3s ease-in-out;
 }
-#burger-menu span:before,
-#burger-menu span:after {
-  content: "";
+.hamburger.active .bar:nth-child(2){
+  opacity:0
 }
-#burger-menu span {
-  right: 0px;
-  top: 13px;
-  width: 27px;
+.hamburger.active .bar:nth-child(1){
+  transform: translateY(8px) rotate(45deg);
 }
-#burger-menu span:before {
-  left: 0px;
-  top: -10px;
-  width: 16px;
+.hamburger.active .bar:nth-child(3){
+  transform: translateY(-8px) rotate(-45deg);
 }
-#burger-menu span:after {
-  left: 0px;
-  top: 10px;
-  width: 20px;
-}
-
-#burger-menu.close span {
-  transform: rotate(-45deg);
-  top: 13px;
-  width: 27px;
-}
-#burger-menu.close span:before {
-  top: 0px;
-  transform: rotate(90deg);
-  width: 27px;
-}
-#burger-menu.close span:after {
-  top: 0px;
-  left:0;
-  transform: rotate(90deg);
-  opacity:0;
-  width:0;
-}
-
-#menu{
-  z-index:1;
-  min-width:100%;
-  min-height:100%;
+.nav-menu{
   position: fixed;
-  top:0;
-  height:0;
-  visibility: hidden;
-  opacity: 0;
-  text-align:center;
-  padding-top:20px;
-  transition: all 0.3s ease-in-out;
-  
+  left: -100%;
+  top: 70px;
+  gap:0;
+  flex-direction: column;
+  background-color: #c8c8c8;
+  width: 100%;
+  text-align: left;
+  transition: 0.3s;
+  z-index: 999;
 }
-
-#menu.overlay{
-  visibility: visible;
-  opacity: 1;
-  padding-top:100px;
-  background:rgba(0,0,0,0.5);
+.nav-item{
+  margin: 16px 0;
 }
-
-#menu li{
-  list-style:none;
-}
-#menu a{
-  color:#fff;
-  display:block;
-  font-size: 32px;
-  margin-bottom:30px;
-  text-decoration:none;
+.nav-menu.active{
+  left: 0;
 }
 /*End of responsive Burger */
     
@@ -1008,32 +1004,32 @@ header button>a {
 
   /* ------------------------------ Sticky scroll bar ------------------------------ */
 
-  /* .scrollUp {
+  .scrollUp {
     position: sticky;
     bottom: 0;
-    color: black;
+    color:black;
     text-align: center;
     padding: 1rem;
     text-decoration: none;
     z-index: 999;
-  } 
+}
 
-  .scrollUp:hover {
-    background: black;
-    color: white;
-  }
+.scrollUp:hover{
+background: black;
+color: white;
+}
 
-  .our-links {
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.299);
-  }
+.our-links{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.299);
+}
 
-  .our-links:active {
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.299);
-  }
+.our-links:active{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.299);
+}
 
-  .our-links:hover {
-    text-decoration: none;
-    color: white;
-  } */
+.our-links:hover{
+  text-decoration: none;
+  color: white;
+}

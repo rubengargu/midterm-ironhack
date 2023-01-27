@@ -1,6 +1,8 @@
-var burgerMenu = document.getElementById('burger-menu');
-var overlay = document.getElementById('menu');
-burgerMenu.addEventListener('click',function(){
-  this.classList.toggle("close");
-  overlay.classList.toggle("overlay");
-});
+const hamburger = document.querySelector(".hamburger")
+const navMenu = document.querySelector(".nav-menu")
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+
+})
