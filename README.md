@@ -192,43 +192,30 @@ Link de presentación: https://www.canva.com/design/DAFY2m_dkzg/view
 
 ## agradecimientos
 
-La sección "agradecimientos" en un archivo README es una sección que proporciona reconocimiento a las personas o instituciones que ayudaron en el desarrollo del proyecto.
+A CSS Tricks, sin ti no habríamos podido maquetarlo.
 
-En esta sección se puede incluir información como:
+A ChatGPT, por tus largas horas de compañía.
 
-- Agradecimientos específicos a personas que ayudaron en el desarrollo del proyecto.
-- Agradecimientos a instituciones o organizaciones que proporcionaron apoyo financiero o recursos.
-- Enlaces a proyectos o recursos relacionados que fueron útiles para el desarrollo del proyecto.
+A Andrea, por su gran compañía. Ha sido un placer adoptarla.
 
-En resumen, la sección "agradecimientos" es una excelente manera de agradecer a las personas o instituciones que ayudaron en el desarrollo del proyecto. Esta sección también puede ser útil para dar crédito a los recursos o proyectos relacionados que fueron útiles durante el desarrollo.
+A la llorería de IronHack, por las tardes de sufrimiento compartido.
 
-- [Icon Libraries](insert-link-here)
-- [Google Font Libraries](insert-link-here)
+A los profesores, por la paciencia y el aprendizaje.
+
+A Jarko, por las horas extras ayudándonos a entender GitHub y resolviendo conflictos que surgían durante la elaboración del proyecto.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Desafío Técnico
 
-La sección "desafío técnico" aunque no es convencional en un proyecto profesional, en nuestro curso dependemos de esta sección en un archivo README para proporcionar información sobre los desafíos técnicos que se enfrentaron durante el desarrollo del proyecto.
+El mayor desafío técnico que nos hemos encontrado ha sido desarrollar algo tan grande como una página web con tantos elementos en un corto plazo de tiempo.
 
-En esta sección se puede incluir información como:
-
-- Problemas técnicos específicos que se encontraron durante el desarrollo del proyecto.
-- Soluciones implementadas para superar estos desafíos.
-- Aspectos del proyecto que aún son un desafío o que requieren mejora continua.
-- Recomendaciones para futuros desarrolladores que trabajen en el proyecto.
-
-En resumen, la sección "desafío técnico" es una excelente manera de brindar a los usuarios y contribuidores una idea de los desafíos técnicos que se enfrentaron durante el desarrollo del proyecto, y cómo se abordaron. Esta sección también puede ser útil para futuros desarrolladores que trabajen en el proyecto, ya que les brinda información valiosa sobre problemas potenciales y soluciones para superarlos.
+Trabajar con GitHub y encontrarnos conflictos de combinación. La forma de resolverlos ha sido utilizar el comparador de código proporcionado por Visual Studio para poder comparar líneas y quedarnos las más adecuadas.
+para futuros desarrolladores que trabajen en el proyecto, ya que les brinda información valiosa sobre problemas potenciales y soluciones para superarlos.
 
 ## Grande Error
 
-La sección "grande error" en un archivo README es una sección opcional que proporciona información sobre los errores importantes cometidos durante el desarrollo del proyecto.
-
-En esta sección se puede incluir información como:
-
-- Descripción detallada del error cometido.
-- Consecuencias del error.
-- Soluciones implementadas para corregir el error.
-- Lecciones aprendidas y recomendaciones para evitar errores similares en el futuro.
-
-En resumen, la sección "grande error" es una forma de ser transparente sobre los errores cometidos durante el desarrollo del proyecto. También puede ser útil para otros desarrolladores que trabajen en el proyecto, ya que les brinda información valiosa sobre problemas potenciales y cómo se abordaron.
+Al combinar ramas en la fase final del proyecto mediante Git, nos encontramos con que se perdían partes de código por no mantener el main actualizado en la local.
+Las consecuencias han sido tener que rehacer parte del código cuando el proyecto, antes de combinar ramas, parecía estar completo.
+Para solucionar este error, hemos creado una rama nueva a partir de la que tenía el código más adaptado, en este caso la main, y a partir de ahí comparar con una rama anterior e ir haciendo copy-paste de las partes que nos interesaban.
