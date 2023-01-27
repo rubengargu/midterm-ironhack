@@ -723,6 +723,9 @@ h6 {
   
 }
 
+.name{
+  font-size: 26px;
+}
 li p {
   display: inline-block;
 }
@@ -732,7 +735,10 @@ li p {
   display: flex;
   justify-content: center;
 }
-
+.We{
+  background: rgb(168,169,9);
+background: linear-gradient(210deg, rgba(168,169,9,1) 14%, rgba(14,37,202,1) 59%);
+}
 iframe {
   display: flex;
   width: 30%;
