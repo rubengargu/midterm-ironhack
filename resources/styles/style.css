@@ -627,11 +627,14 @@ h1 {
   margin: 0 auto;
   margin-bottom: 20px;
   font-size: 48px;
+  text-align: center;
 }
 
 form {
-  margin: 0 auto;
-  width: 80%;
+  /* margin: 0 auto;
+  width: 80%; */
+  display: flex;
+  justify-content: center;
 
 }
 
@@ -667,6 +670,9 @@ label {
   color: #ceced2;
   margin-left: 37px;
 
+}
+.mail-form{
+  margin-left:7px
 }
 
 ::placeholder {
