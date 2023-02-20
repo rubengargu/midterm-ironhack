@@ -448,7 +448,7 @@ header button>a {
   padding-bottom: 1vw;
   padding-left: 3vw;
   padding-right: 3vw;
-  width: 60%;
+  width: 80%;
   margin-bottom: 20px;
 }
 
@@ -737,8 +737,12 @@ h2 {
 h6 {
   display: inline;
   font-size: 16px;
+  
 }
 
+.name{
+  font-size: 26px;
+}
 li p {
   display: inline-block;
 }
@@ -748,7 +752,10 @@ li p {
   display: flex;
   justify-content: center;
 }
-
+.We{
+  background: rgb(168,169,9);
+background: linear-gradient(210deg, rgba(168,169,9,1) 14%, rgba(14,37,202,1) 59%);
+}
 iframe {
   display: flex;
   
@@ -857,6 +864,10 @@ header button{
     #presentation h1 {
       flex-wrap: wrap;
       font-size: 40px;
+    }
+    .We{
+      background: rgb(168,169,9);
+background: linear-gradient(210deg, rgba(168,169,9,1) 14%, rgba(14,37,202,1) 59%);
     }
 
     /* #logos{
@@ -983,7 +994,10 @@ header button{
       width: 100%;
     }
   }
-
+.imgUs{
+  display: flex;
+  justify-content: center;
+}
 
   /* Center text */
 
