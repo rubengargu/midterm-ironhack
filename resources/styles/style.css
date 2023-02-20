@@ -256,8 +256,8 @@ header button>a {
   justify-content: space-around;
   flex-direction: row;
   display: flex;
-  margin: 76px 100px; 
-  animation: scrolling 15s linear infinite;
+  margin: 80px 100px; 
+  animation: scrolling 20s linear infinite;
   /* position: fixed; */
   left: 0;
   bottom: 400px;
